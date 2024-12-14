@@ -102,4 +102,6 @@ Where:
 
 The estimated arrival times for the flights will be written to the output CSV file (`estimated_arrival_times.csv`), which will look like this:
 
+Flight Number,Estimated Arrival Time AA123,2023-12-01 17:42:00 AA234,2023-12-01 17:58:00 DL789,2023-12-01 17:43:00 EI562,2023-12-01 19:30:00
+
 
