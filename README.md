@@ -48,3 +48,60 @@ The program calculates the estimated arrival time using the formula:
 
 ```python
 estimated_arrival_time = current_time + timedelta(hours=distance / speed)
+```
+
+Where:
+- `current_time` is the current date and time.
+- `distance` is the distance of the aircraft from the destination airport (in kilometers).
+- `speed` is the speed of the aircraft (in meters per second).
+
+### User Interaction
+
+- The user can enter a flight number (e.g., `AA123`) to get information about that flight.
+- If the flight exists in the timetable, the program will display details such as:
+    - Flight Number
+    - Airport
+    - Timetabled Arrival Time
+    - Distance from the airport
+    - Speed
+    - Estimated Arrival Time
+- The estimated arrival time is calculated and written to the `estimated_arrival_times.csv` file.
+
+### Example Usage
+
+1. Start the program by running the script:
+    ```bash
+    python flight_program.py
+    ```
+
+2. The program will display the available flight options (flight numbers). For example:
+    ```
+    Available Flights:
+    AA123
+    AA234
+    DL789
+    EI562
+    ```
+
+3. Enter a flight number (e.g., `AA123`):
+    ```
+    Enter a flight number (or 'exit' to quit): AA123
+    ```
+
+4. The program will display the flight information and estimated arrival time:
+    ```
+    Flight Number: AA123
+    Aircraft: AA123 at Heathrow
+    Timetabled Arrival Time: 2023-12-01 10:30:00
+    Distance from Airport: 230 km
+    Aircraft Speed: 321 m/s
+    Estimated Arrival Time: 2023-12-01 17:42:00
+    ```
+
+5. The estimated arrival time will be added to the `estimated_arrival_times.csv` file.
+
+### Output Data (`estimated_arrival_times.csv`)
+
+The estimated arrival times for the flights will be written to the output CSV file (`estimated_arrival_times.csv`), which will look like this:
+
+
