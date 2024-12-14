@@ -28,7 +28,7 @@ This Python program estimates the arrival times of aircraft based on the data fr
 
 ## How it Works
 
-### Input Data (`aircraft_data.csv`)
+## Input Data (`aircraft_data.csv`)
 
 The program begins by creating an input CSV file (`aircraft_data.csv`) that contains the following columns:
 
@@ -40,7 +40,7 @@ The program begins by creating an input CSV file (`aircraft_data.csv`) that cont
 
 Sample data is automatically written into the `aircraft_data.csv` file when the program runs.
 
-### Estimated Arrival Time Calculation
+## Estimated Arrival Time Calculation
 
 The program calculates the estimated arrival time using the formula:
 
@@ -53,7 +53,7 @@ Where:
 - `distance` is the distance of the aircraft from the destination airport (in kilometers).
 - `speed` is the speed of the aircraft (in meters per second).
 
-### User Interaction
+## User Interaction
 
 - The user can enter a flight number (e.g., `AA123`) to get information about that flight.
 - If the flight exists in the timetable, the program will display details such as:
@@ -65,7 +65,7 @@ Where:
     - Estimated Arrival Time
 - The estimated arrival time is calculated and written to the `estimated_arrival_times.csv` file.
 
-### Example Usage
+## Example Usage
 
 1. Start the program by running the script:
     ```bash
@@ -98,7 +98,7 @@ Where:
 
 5. The estimated arrival time will be added to the `estimated_arrival_times.csv` file.
 
-### Output Data (`estimated_arrival_times.csv`)
+## Output Data (`estimated_arrival_times.csv`)
 
 The estimated arrival times for the flights will be written to the output CSV file (`estimated_arrival_times.csv`).
 
