@@ -1,7 +1,5 @@
 # Aircraft-arrival-time-estimator
 
-# Aircraft Arrival Estimation Program
-
 This Python program estimates the arrival times of aircraft based on the data from a CSV file. It calculates the estimated arrival time for each flight based on its distance from the airport and its speed, then writes the estimated times to an output CSV file.
 
 ## Features
